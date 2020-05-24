@@ -120,7 +120,7 @@
 										transition-timing-function: ease-out;
 									}
 									&:hover {
-										color: #fa2964;
+										color: white;
 									}
 									&::before {
 										content: "";
@@ -130,12 +130,12 @@
 								.nav-child {
 									position: absolute;
 									left: 0;
-									background: #fff;
+									background: lightpink;
 									width: 300px;
 									display: none;
-									height: 80px;
+									height: auto;
 									z-index: 100;
-									padding: 0 0;
+									margin-left: 70px;
 									li {
 										position: relative;
 										width: 100%;
@@ -158,10 +158,11 @@
 	}
 }
 .nav-bar-siderbar {
-	background-color: red;
-	width: 350px;
+	background-color: lightpink;
+	width: 200px;
 	height: calc(100vh - 120px);
 	transition: all 1s;
+	float: left;
 }
 .Home {
 	width: 100%;
