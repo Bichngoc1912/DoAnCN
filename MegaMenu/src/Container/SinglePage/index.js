@@ -5,7 +5,6 @@ export function SinglePage () {
        <div className="sidebar-page-container">
         <div className="auto-container">
           <div className="row clearfix">
-            {/*Content Side*/}
             <div className="content-side col-lg-8 col-md-12 col-sm-12">
               <div className="content">
                 <div className="blog-single">
@@ -17,18 +16,17 @@ export function SinglePage () {
                         <li>Một Ngôi Trường Ở Việt Nam Đẹp Đến Mê Hồn</li>
                       </ul>
                       <ul className="tag-title">
-                        <li>Featured</li>
-                        <li>Travel</li>
+                        <li>Tin tức</li>
                       </ul>
-                      <h2>WordPress News Magazine Charts the Fashionable universal Theme</h2>
+                      <h2>Phát hiện ra một ngôi trường ở Việt Nam đẹp đến mê hồn, lên hình không chê vào đâu được</h2>
                       <ul className="post-meta">
-                        <li><span className="icon qb-clock" />March 16, 2017</li>
-                        <li><span className="icon qb-user2" />by Noor</li>
-                        <li><span className="icon fa fa-comment-o" />3 comments</li>
-                        <li><span className="icon qb-eye" />1524 Views</li>
+                        <li><span className="icon qb-clock" />Ngày 20/02/2019</li>
+                        <li><span className="icon qb-user2" />Đăng bởi Moon Lee</li>
+                        <li><span className="icon fa fa-comment-o" />3 bình luận</li>
+                        <li><span className="icon qb-eye" />1524 lượt xem</li>
                       </ul>
                       <ul className="social-icon-one alternate">
-                        <li className="share">Share:</li>
+                        <li className="share">chia sẻ qua:</li>
                         <li><a href="#"><span className="fa fa-facebook" /></a></li>
                         <li className="twitter"><a href="#"><span className="fa fa-twitter" /></a></li>
                         <li className="g_plus"><a href="#"><span className="fa fa-google-plus" /></a></li>
@@ -37,264 +35,45 @@ export function SinglePage () {
                       </ul>
                     </div>
                     <div className="text">
-                      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit doli. Aenean commodo ligula eget dolor. Aenean massa. Cumtipsu sociis natoque penatibus et magnis dis parturient montesti, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eutu, pretiumem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justotuio, rhoncus ut loret, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Intege</p>
+                      <p>Cứ tưởng ở nước ngoài, ngờ đâu ngôi trường vạn người mê này thực chất nằm tại thành phố ngàn hoa nổi tiếng của Việt Nam.
+
+                      Chúng ta vẫn thường ngưỡng mộ những ngôi trường ở nước ngoài có khuôn viên đẹp như trong phim, đứng bất kỳ đâu cũng có thể cho ra những kiểu ảnh sống ảo nghìn like. Thế nhưng thực chất chẳng cần đi đâu xa, chính Việt Nam cũng có những ngôi trường lung linh và đẹp đầy chất điện ảnh không kém cạnh.
+                      
+                      Mới đây, trên MXH xuất hiện những bức hình chụp lại một ngôi trường có khung cảnh đẹp lãng mạn với dọc hoa anh đào bung nở nhuộm hồng cả góc trời. Ban đầu, ai cũng tưởng đây là một trường học tại Nhật Bản hay Hàn Quốc, thế nhưng ngôi trường khiến dân mạng đổ xô đi tìm danh tính này thực chất là Đại học Đà Lạt nằm tại Đà Lạt - thành phố ngàn hoa nổi tiếng của Việt Nam.</p>
                       <div className="row clearfix">
                         <div className="col-lg-4 col-md-4 col-sm-12">
                           <div className="image">
-                            <img src="images/resource/image-1.jpg" alt="" />
+                            <img src="https://halotravel.vn/wp-content/uploads/2019/11/dalat_truong-dai-hoc-da-lat-1-820x1024.jpg" alt="" />
                           </div>
                         </div>
                         <div className="col-lg-8 col-md-8 col-sm-12">
-                          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores.Lorem ipsum dolor sit amet, consectetuer adipiscing elit doli. Aenean commodo ligula eget dolor. Aenean massa. Cumtipsu sociis natoque penatibus et magnis dis parturient montesti, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eutu, pretiumem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justotuio, rhoncus ut loret, imperdiet a, venenatis vitae, justo. Vivamus element semper nisi.</p>
-                        </div>
-                      </div>
-                      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit doli. Aenean commodo ligula eget dolor. Aenean massa. Cumtipsu sociis natoque penatibus et magnis dis parturient montesti, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eutu, pretiumem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justotuio, rhoncus ut loret, imperdiet a, venenatis vitae, justo. Nullam dictum.</p>
-                      <blockquote>Lorem ipsum dolor sit amet, consectetuer adipiscing elit doli. Aenean commodo ligula eget dolor. Aenean massa. Cumtipsu sociis natoque penatibus et magnis dis parturient montesti, nascetur ridiculus mus. Donec quam felis, ultricies nec,</blockquote>
-                      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit doli. Aenean commodo ligula eget dolor. Aenean massa. Cumtipsu sociis natoque penatibus et magnis dis parturient montesti, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eutu, pretiumem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justotuio, rhoncus ut loret, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.</p>
-                      <div className="row clearfix">
-                        <div className="col-lg-8 col-md-8 col-sm-12">
-                          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, ipsam voluptatem quluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores.Lorem ipsum dolor sit amet, consectetuer adipiscing elit doli. Aenean commodo ligula eget dolor. Aenean massa. Cumtipsu sociis natoque penatibus et magnis dis parturient montesti, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eutu, pretiumem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justotuio, rhoncus ut loret, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus element semper nisi. Aenean vulputate eleifend tellus.</p>
-                        </div>
-                        <div className="col-lg-4 col-md-4 col-sm-12">
-                          <div className="image">
-                            <img src="images/resource/image-2.jpg" alt="" />
-                          </div>
+                          <p>Trường Đại học Đà Lạt là một trường đại học đa ngành tại Việt Nam, là đại diện duy nhất tại vùng Tây Nguyên được xếp vào nhóm 25 trường đại học tốt nhất tại Việt Nam, theo bảng xếp hạng đại học công bố đầu năm 2019 của Bảng xếp hạng đại học Webometrics. Trước đây, Đại học Đà Lạt còn từng được xem là một trong những trường đại học có cảnh quan đẹp nhất Đông Nam Á
+
+                          Điểm ấn tượng nhất của Đại học Đà Lạt có lẽ là không gian lớn rộng, trải dài trên đồi thông. Trường ẩn mình giữa hàng cây cao vút, chạy dọc con đường nhỏ quanh co, kề bên những con dốc thoai thoải đặc trưng của Đà Lạt.</p>
                         </div>
                       </div>
                     </div>
-                    {/*post-share-options*/}
-                    <div className="post-share-options">
-                      <div className="tags clearfix"><a href="#">Design</a> <a href="#">Fashion</a> <a href="#">Money</a></div>
-                    </div>
-                    {/*New Article*/}
-                    <ul className="new-article clearfix">
-                      <li><a href="#"><span className="fa fa-angle-left" />         Previous Article</a></li>
-                      <li><a href="#">Next Article         <span className="fa fa-angle-right" /></a></li>
-                    </ul>
                   </div>
-                  {/*Author Box*/}
-                  <div className="author-box">
-                    <div className="author-comment">
-                      <div className="inner-box">
-                        <div className="image"><img src="images/resource/author-1.jpg" alt="" /></div>
-                        <h4>Sandra Mavic</h4>
-                        <div className="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit doli. Aenean commodo ligula eget dolor. Aenean massa. Cumtipsu sociis natoque penatibus et magnis dis parturient montesti, nascetur ridiculus mus. Donec quam penatibus et magnis .</div>
-                        <ul className="social-icon-two">
-                          <li><a href="#"><span className="fa fa-facebook-square" /></a></li>
-                          <li><a href="#"><span className="fa fa-twitter" /></a></li>
-                          <li><a href="#"><span className="fa fa-google-plus" /></a></li>
-                          <li><a href="#"><span className="fa fa-linkedin-square" /></a></li>
-                          <li><a href="#"><span className="fa fa-pinterest-p" /></a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  {/*Related Posts*/}
-                  <div className="related-posts">
-                    <div className="sec-title">
-                      <h2>Related Articles</h2>
-                    </div>
-                    <div className="related-item-carousel owl-carousel owl-theme owl-loaded owl-drag">
-                      {/*News Block Two*/}
-                      {/*News Block Two*/}
-                      {/*News Block Two*/}
-                      {/*News Block Two*/}
-                      {/*News Block Two*/}
-                      {/*News Block Two*/}
-                      <div className="owl-stage-outer"><div className="owl-stage" style={{transform: 'translate3d(-1333px, 0px, 0px)', transition: 'all 0.7s ease 0s', width: '3201px'}}><div className="owl-item cloned" style={{width: '236.667px', marginRight: '30px'}}><div className="news-block-two small-block">
-                              <div className="inner-box">
-                                <div className="image">
-                                  <a href="#"><img src="images/resource/news-40.jpg" alt="" /></a>
-                                  <div className="category"><a href="#">Travel</a></div>
-                                </div>
-                                <div className="lower-box">
-                                  <h3><a href="#">Elon Musk's Hyperloop vision races</a></h3>
-                                  <ul className="post-meta">
-                                    <li><span className="icon fa fa-clock-o" />April 03, 2017</li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div></div><div className="owl-item cloned" style={{width: '236.667px', marginRight: '30px'}}><div className="news-block-two small-block">
-                              <div className="inner-box">
-                                <div className="image">
-                                  <a href="#"><img src="images/resource/news-41.jpg" alt="" /></a>
-                                  <div className="category"><a href="#">Sports</a></div>
-                                </div>
-                                <div className="lower-box">
-                                  <h3><a href="#">A modern day security strategy</a></h3>
-                                  <ul className="post-meta">
-                                    <li><span className="icon fa fa-clock-o" />April 04, 2017</li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div></div><div className="owl-item cloned" style={{width: '236.667px', marginRight: '30px'}}><div className="news-block-two small-block">
-                              <div className="inner-box">
-                                <div className="image">
-                                  <a href="#"><img src="images/resource/news-42.jpg" alt="" /></a>
-                                  <div className="category">photo</div>
-                                </div>
-                                <div className="lower-box">
-                                  <h3><a href="#">Fix an Exchange Rate now with</a></h3>
-                                  <ul className="post-meta">
-                                    <li><span className="icon fa fa-clock-o" />April 04, 2017</li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div></div><div className="owl-item" style={{width: '236.667px', marginRight: '30px'}}><div className="news-block-two small-block">
-                              <div className="inner-box">
-                                <div className="image">
-                                  <a href="#"><img src="images/resource/news-40.jpg" alt="" /></a>
-                                  <div className="category"><a href="#">Travel</a></div>
-                                </div>
-                                <div className="lower-box">
-                                  <h3><a href="#">Elon Musk's Hyperloop vision races toward</a></h3>
-                                  <ul className="post-meta">
-                                    <li><span className="icon fa fa-clock-o" />April 03, 2017</li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div></div><div className="owl-item" style={{width: '236.667px', marginRight: '30px'}}><div className="news-block-two small-block">
-                              <div className="inner-box">
-                                <div className="image">
-                                  <a href="#"><img src="images/resource/news-41.jpg" alt="" /></a>
-                                  <div className="category"><a href="#">Sports</a></div>
-                                </div>
-                                <div className="lower-box">
-                                  <h3><a href="#">A modern day security strategy</a></h3>
-                                  <ul className="post-meta">
-                                    <li><span className="icon fa fa-clock-o" />April 04, 2017</li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div></div><div className="owl-item active" style={{width: '236.667px', marginRight: '30px'}}><div className="news-block-two small-block">
-                              <div className="inner-box">
-                                <div className="image">
-                                  <a href="#"><img src="images/resource/news-42.jpg" alt="" /></a>
-                                  <div className="category">photo</div>
-                                </div>
-                                <div className="lower-box">
-                                  <h3><a href="#">Fix an Exchange Rate today</a></h3>
-                                  <ul className="post-meta">
-                                    <li><span className="icon fa fa-clock-o" />April 04, 2017</li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div></div><div className="owl-item active" style={{width: '236.667px', marginRight: '30px'}}><div className="news-block-two small-block">
-                              <div className="inner-box">
-                                <div className="image">
-                                  <a href="#"><img src="images/resource/news-40.jpg" alt="" /></a>
-                                  <div className="category"><a href="#">Travel</a></div>
-                                </div>
-                                <div className="lower-box">
-                                  <h3><a href="#">Elon Musk's Hyperloop vision races</a></h3>
-                                  <ul className="post-meta">
-                                    <li><span className="icon fa fa-clock-o" />April 03, 2017</li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div></div><div className="owl-item active" style={{width: '236.667px', marginRight: '30px'}}><div className="news-block-two small-block">
-                              <div className="inner-box">
-                                <div className="image">
-                                  <a href="#"><img src="images/resource/news-41.jpg" alt="" /></a>
-                                  <div className="category"><a href="#">Sports</a></div>
-                                </div>
-                                <div className="lower-box">
-                                  <h3><a href="#">A modern day security strategy</a></h3>
-                                  <ul className="post-meta">
-                                    <li><span className="icon fa fa-clock-o" />April 04, 2017</li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div></div><div className="owl-item" style={{width: '236.667px', marginRight: '30px'}}><div className="news-block-two small-block">
-                              <div className="inner-box">
-                                <div className="image">
-                                  <a href="#"><img src="images/resource/news-42.jpg" alt="" /></a>
-                                  <div className="category">photo</div>
-                                </div>
-                                <div className="lower-box">
-                                  <h3><a href="#">Fix an Exchange Rate now with</a></h3>
-                                  <ul className="post-meta">
-                                    <li><span className="icon fa fa-clock-o" />April 04, 2017</li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div></div><div className="owl-item cloned" style={{width: '236.667px', marginRight: '30px'}}><div className="news-block-two small-block">
-                              <div className="inner-box">
-                                <div className="image">
-                                  <a href="#"><img src="images/resource/news-40.jpg" alt="" /></a>
-                                  <div className="category"><a href="#">Travel</a></div>
-                                </div>
-                                <div className="lower-box">
-                                  <h3><a href="#">Elon Musk's Hyperloop vision races toward</a></h3>
-                                  <ul className="post-meta">
-                                    <li><span className="icon fa fa-clock-o" />April 03, 2017</li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div></div><div className="owl-item cloned" style={{width: '236.667px', marginRight: '30px'}}><div className="news-block-two small-block">
-                              <div className="inner-box">
-                                <div className="image">
-                                  <a href="#"><img src="images/resource/news-41.jpg" alt="" /></a>
-                                  <div className="category"><a href="#">Sports</a></div>
-                                </div>
-                                <div className="lower-box">
-                                  <h3><a href="#">A modern day security strategy</a></h3>
-                                  <ul className="post-meta">
-                                    <li><span className="icon fa fa-clock-o" />April 04, 2017</li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div></div><div className="owl-item cloned" style={{width: '236.667px', marginRight: '30px'}}><div className="news-block-two small-block">
-                              <div className="inner-box">
-                                <div className="image">
-                                  <a href="#"><img src="images/resource/news-42.jpg" alt="" /></a>
-                                  <div className="category">photo</div>
-                                </div>
-                                <div className="lower-box">
-                                  <h3><a href="#">Fix an Exchange Rate today</a></h3>
-                                  <ul className="post-meta">
-                                    <li><span className="icon fa fa-clock-o" />April 04, 2017</li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div></div></div></div><div className="owl-nav"><div className="owl-prev"><span className="fa fa-angle-left" /></div><div className="owl-next"><span className="fa fa-angle-right" /></div></div><div className="owl-dots"><div className="owl-dot active"><span /></div><div className="owl-dot"><span /></div></div></div>
-                  </div>
-                  {/*Comments Area*/}
-                  <div className="comments-area">
-                    <div className="sec-title"><h2>2 Comments</h2></div>
-                    {/*Comment Box*/}
+                  <div className="author-box comments-area">
+                    <div className="sec-title"><h2>2 Bình luận</h2></div>
                     <div className="comment-box">
                       <div className="comment">
-                        <div className="author-thumb"><img src="images/resource/author-2.jpg" alt="" /></div>
+                        <div className="author-thumb"><img src="https://scontent.fvca1-1.fna.fbcdn.net/v/t1.0-1/p960x960/89252614_724720914991191_6935181656760254464_o.jpg?_nc_cat=111&_nc_sid=dbb9e7&_nc_ohc=YJa4P_M1cukAX-EdO0v&_nc_ht=scontent.fvca1-1.fna&_nc_tp=6&oh=679be5a76956d4f882df338e74fc63e5&oe=5EF1D4FC" alt="" /></div>
                         <div className="comment-inner">
-                          <div className="comment-info">Sandra Mavic</div>
-                          <div className="post-date">March 03, 2017</div>
-                          <div className="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit doli. Aenean commodo ligula eget dolor. Aenean massa. Cumtipsu sociis natoque penatibus et magnis dis parturient montesti, nascetur ridiculus mus. Donec qam penatibus et magnis .</div>
-                          <a href="#" className="reply-btn">Reply</a>
-                        </div>
-                      </div>
-                    </div>
-                    {/*Comment Box*/}
-                    <div className="comment-box reply-comment">
-                      <div className="comment">
-                        <div className="author-thumb"><img src="images/resource/author-1.jpg" alt="" /></div>
-                        <div className="comment-inner">
-                          <div className="comment-info">George Belly</div>
-                          <div className="post-date">March 03, 2017</div>
-                          <div className="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit doli. Aenean commodo ligula eget dolor. Aenean massa. Cumtipsu sociis natoque penatibus et magnis dis parturient montesti, nascetur ridiculus mus. Donec qam penatibus et magnis .</div>
-                          <a href="#" className="reply-btn">Reply</a>
+                          <div className="comment-info">Minh nguyệt</div>
+                          <div className="post-date">Ngày 10/5/2020</div>
+                          <div className="text">Đúng vậy trường đại học thật là đẹp, khung cảnh nhìn như Hàn Quốc...</div>
+                          <a href="#" className="reply-btn">Xem thêm</a>
                         </div>
                       </div>
                     </div>
                   </div>
-                  {/* Comment Form */}
                   <div className="comment-form">
-                    <div className="sec-title"><h2>Leave a comment</h2></div>
-                    {/*Comment Form*/}
+                    <div className="sec-title"><h2>Bình luận</h2></div>
                     <form method="post" action="blog.html">
                       <div className="row clearfix">
                         <div className="col-lg-4 col-md-6 col-sm-12 form-group">
-                          <input type="text" name="username" placeholder="Name ..." required />
+                          <input type="text" name="username" placeholder="Tên ..." required />
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-12 form-group">
                           <input type="email" name="email" placeholder="Email ..." required />
@@ -303,34 +82,30 @@ export function SinglePage () {
                           <input type="text" name="website" placeholder="Website ..." required />
                         </div>
                         <div className="col-lg-12 col-md-12 col-sm-12 form-group">
-                          <textarea name="message" placeholder="Message ..." defaultValue={""} />
+                          <textarea name="message" placeholder="Nội dung bình luận ..." defaultValue={""} />
                         </div>
                         <div className="col-lg-12 col-md-12 col-sm-12 form-group">
-                          <button className="theme-btn" type="submit" name="submit-form">Submit Comment</button>
+                          <button className="theme-btn" type="submit" name="submit-form">Đăng</button>
                         </div>
                       </div>
                     </form>
                   </div>
-                  {/*End Comment Form */}
                 </div>
               </div>
             </div>
-            {/*Sidebar Side*/}
             <div className="sidebar-side col-lg-4 col-md-12 col-sm-12">
               <aside className="sidebar default-sidebar right-sidebar">
-                {/* Search */}
                 <div className="sidebar-widget search-box">
-                  <form method="post" action="contact.html">
+                  <form method="post" action="">
                     <div className="form-group">
-                      <input type="search" name="search-field" defaultValue placeholder="Search" required />
+                      <input type="search" name="search-field" placeholder="Tìm kiếm" required />
                       <button type="submit"><span className="icon fa fa-search" /></button>
                     </div>
                   </form>
                 </div>
-                {/*Social Widget*/}
                 <div className="sidebar-widget sidebar-social-widget">
                   <div className="sidebar-title">
-                    <h2>Follow Us</h2>
+                    <h2>Theo dõi</h2>
                   </div>
                   <ul className="social-icon-one alternate">
                     <li><a href="#"><span className="fa fa-facebook" /></a></li>
@@ -343,57 +118,24 @@ export function SinglePage () {
                     <li className="vimeo"><a href="#"><span className="fa fa-vimeo" /></a></li>
                   </ul>
                 </div>
-                {/*End Social Widget*/}
-                {/*Adds Widget*/}
-                <div className="sidebar-widget sidebar-adds-widget">
-                  <div className="adds-block" style={{backgroundImage: 'url(images/resource/add-image.jpg)'}}>
-                    <div className="inner-box">
-                      <div className="text">Advertisement <span> 340 x 283</span></div>
-                      <a href="#" className="theme-btn btn-style-two">Purchase Now</a>
-                    </div>
-                  </div>
-                </div>
-                {/*Ends Adds Widget*/}
-                {/*News Post Widget*/}
                 <div className="sidebar-widget posts-widget">
-                  {/*Product widget Tabs*/}
                   <div className="product-widget-tabs">
-                    {/*Product Tabs*/}
                     <div className="prod-tabs tabs-box">
-                      {/*Tab Btns*/}
                       <ul className="tab-btns tab-buttons clearfix">
-                        <li data-tab="#prod-popular" className="tab-btn active-btn">Popular</li>
-                        <li data-tab="#prod-recent" className="tab-btn">Recent</li>
-                        <li data-tab="#prod-comment" className="tab-btn">Comments</li>
+                        <li data-tab="#prod-popular" className="tab-btn active-btn">Phổ biến</li>
+                        <li data-tab="#prod-recent" className="tab-btn">Gần đây</li>
+                        <li data-tab="#prod-comment" className="tab-btn">Bình luận</li>
                       </ul>
-                      {/*Tabs Container*/}
                       <div className="tabs-content">
-                        {/*Tab / Active Tab*/}
                         <div className="tab active-tab" id="prod-popular">
                           <div className="content">
                             <article className="widget-post">
-                              <figure className="post-thumb"><a href="blog-single.html"><img src="images/resource/post-thumb-1.jpg" alt="" /></a><div className="overlay"><span className="icon qb-play-arrow" /></div></figure>
-                              <div className="text"><a href="blog-single.html">Historical Placed &amp; his photoshopped</a></div>
-                              <div className="post-info">April 01, 2017</div>
-                            </article>
-                            <article className="widget-post">
-                              <figure className="post-thumb"><a href="blog-single.html"><img src="images/resource/post-thumb-2.jpg" alt="" /></a><div className="overlay"><span className="icon qb-play-arrow" /></div></figure>
-                              <div className="text"><a href="blog-single.html">the Poor Man use cycling for is Business improvement</a></div>
-                              <div className="post-info">April 02, 2017</div>
-                            </article>
-                            <article className="widget-post">
-                              <figure className="post-thumb"><a href="blog-single.html"><img src="images/resource/post-thumb-3.jpg" alt="" /></a><div className="overlay"><span className="icon qb-play-arrow" /></div></figure>
-                              <div className="text"><a href="blog-single.html">American Black Film Festival New projects from film TV</a></div>
-                              <div className="post-info">April 03, 2017</div>
-                            </article>
-                            <article className="widget-post">
-                              <figure className="post-thumb"><a href="blog-single.html"><img src="images/resource/post-thumb-4.jpg" alt="" /></a><div className="overlay"><span className="icon qb-play-arrow" /></div></figure>
-                              <div className="text"><a href="blog-single.html">Amy Schumer swaps lives with Anna Wintour</a></div>
-                              <div className="post-info">April 04, 2017</div>
+                              <figure className="post-thumb"><a href="#"><img src="https://image.thanhnien.vn/1080/uploaded/lamvien/2020_02_06/dhdalat_lnmw.jpg" alt="" /></a><div className="overlay"><span className="icon qb-play-arrow" /></div></figure>
+                              <div className="text"><a href="#">Trường Đại Học Đà Lạt ...... bài viết</a></div>
+                              <div className="post-info">27/4/2020</div>
                             </article>
                           </div>
                         </div>
-                        {/*Tab*/}
                         <div className="tab" id="prod-recent">
                           <div className="content">
                             <article className="widget-post">
@@ -408,7 +150,6 @@ export function SinglePage () {
                             </article>
                           </div>
                         </div>
-                        {/*Tab*/}
                         <div className="tab" id="prod-comment">
                           <div className="content">
                             <article className="widget-post">
@@ -431,25 +172,18 @@ export function SinglePage () {
                       </div>
                     </div>
                   </div>
-                  {/*End Product Info Tabs*/}
                 </div>
-                {/*End Post Widget*/}
-                {/*Category Widget*/}
                 <div className="sidebar-widget categories-widget">
                   <div className="sidebar-title">
-                    <h2>Categories</h2>
+                    <h2>Danh mục</h2>
                   </div>
                   <ul className="cat-list">
-                    <li className="clearfix"><a href="#">Travel <span>(30)</span></a></li>
-                    <li className="clearfix"><a href="#">Entertainment<span>(9)</span></a></li>
-                    <li className="clearfix"><a href="#">Sport<span>(13)</span></a></li>
-                    <li className="clearfix"><a href="#">Life Style<span>(70)</span></a></li>
-                    <li className="clearfix"><a href="#">Tech<span>(11)</span></a></li>
-                    <li className="clearfix"><a href="#">Money<span>(5)</span></a></li>
-                    <li className="clearfix"><a href="#">Photo<span>(14)</span></a></li>
+                    <li className="clearfix"><a href="#">Sự kiến <span>(30)</span></a></li>
+                    <li className="clearfix"><a href="#">Tin tức<span>(9)</span></a></li>
+                    <li className="clearfix"><a href="#">Giải thưởng<span>(13)</span></a></li>
+                    <li className="clearfix"><a href="#">Bài viết<span>(70)</span></a></li>
                   </ul>
                 </div>
-                {/*End Category Widget*/}
               </aside>
             </div>
           </div>
