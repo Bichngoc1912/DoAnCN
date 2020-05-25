@@ -11,7 +11,7 @@ function Router(){
               <Route exact path="/" component={SinglePage} />
               <Route path="/About" component={About}/>
               <Route path="/Contact" component={Contact} />
-               <Route path="/SinglePage" component={Dashboard} />
+              <Route path="/SinglePage" component={SinglePage} />
           </Layout>
     )
 }
