@@ -8,10 +8,10 @@ import {SinglePage} from './Container/SinglePage'
 function Router(){
     return (
           <Layout>
-              <Route exact path="/" component={Dashboard} />
+              <Route exact path="/" component={SinglePage} />
               <Route path="/About" component={About}/>
               <Route path="/Contact" component={Contact} />
-               <Route path="/SinglePage" component={SinglePage} />
+               <Route path="/SinglePage" component={Dashboard} />
           </Layout>
     )
 }
