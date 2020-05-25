@@ -38,7 +38,7 @@ export default function Navgation(props) {
                 
               </Link>
             </div>
-            <div className="togglemenu" onClick = {() => setToggleMenu(!toggleMenu)}><i className="fa fa-bars" ></i></div>
+            <div className="togglemenu" onClick = {() => setToggleMenu(!toggleMenu)}><i className="fa fa-bars" >Đổi Menu</i></div>
           </div>
         </div>
       </div>
