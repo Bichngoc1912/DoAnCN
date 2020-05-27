@@ -2,11 +2,15 @@ import React, { useState } from "react";
 import "./style.css";
 import "./toggle.scss";
 import { Widget } from "./widget";
+import { useParams } from "react-router-dom";
+import { useSelector } from "react-redux";
 export function SinglePage() {
   const [isWidgetLeft, setIsWidgetLeft] = useState(false);
   const [isWidgetRight, setIsWidgetRight] = useState(true);
   const [toggleForm, setToggleForm] = useState(false);
-
+  const { id } = useParams();
+  const listpost = useSelector((state) => state.posts.listpost);
+  const data = listpost && listpost.find((x) => x.id == id);
   return (
     <div className="sidebar-page-container">
       <div className="auto-container">
@@ -20,16 +24,22 @@ export function SinglePage() {
           ></i>
         </div>
         <div className={`form-toggle ${toggleForm ? "show" : "hide"}`}>
-          <div className="left"  onClick={() => {
-            setIsWidgetLeft(!isWidgetLeft);
-          }}>
-            bố cục widget trái 
+          <div
+            className="left"
+            onClick={() => {
+              setIsWidgetLeft(!isWidgetLeft);
+            }}
+          >
+            bố cục widget trái
           </div>
-          <div className="right" onClick={() => {
-            setIsWidgetRight(!isWidgetRight);
-          }}>
-          bố cục widget phải 
-        </div>
+          <div
+            className="right"
+            onClick={() => {
+              setIsWidgetRight(!isWidgetRight);
+            }}
+          >
+            bố cục widget phải
+          </div>
         </div>
         <div className="row clearfix">
           {isWidgetLeft && (
@@ -60,15 +70,12 @@ export function SinglePage() {
                         <a href="#">Trang chủ</a>
                       </li>
                       <li>Tin tức</li>
-                      <li>Một Ngôi Trường Ở Việt Nam Đẹp Đến Mê Hồn</li>
+                      <li>{data && data.title.rendered}</li>
                     </ul>
                     <ul className="tag-title">
                       <li>Tin tức</li>
                     </ul>
-                    <h2>
-                      Phát hiện ra một ngôi trường ở Việt Nam đẹp đến mê hồn,
-                      lên hình không chê vào đâu được
-                    </h2>
+                    <h2>{data && data.title.rendered}</h2>
                     <ul className="post-meta">
                       <li>
                         <span className="icon qb-clock" />
@@ -117,47 +124,11 @@ export function SinglePage() {
                   </div>
 
                   <div className="text">
-                    <p>
-                      Cứ tưởng ở nước ngoài, ngờ đâu ngôi trường vạn người mê
-                      này thực chất nằm tại thành phố ngàn hoa nổi tiếng của
-                      Việt Nam. Chúng ta vẫn thường ngưỡng mộ những ngôi trường
-                      ở nước ngoài có khuôn viên đẹp như trong phim, đứng bất kỳ
-                      đâu cũng có thể cho ra những kiểu ảnh sống ảo nghìn like.
-                      Thế nhưng thực chất chẳng cần đi đâu xa, chính Việt Nam
-                      cũng có những ngôi trường lung linh và đẹp đầy chất điện
-                      ảnh không kém cạnh. Mới đây, trên MXH xuất hiện những bức
-                      hình chụp lại một ngôi trường có khung cảnh đẹp lãng mạn
-                      với dọc hoa anh đào bung nở nhuộm hồng cả góc trời. Ban
-                      đầu, ai cũng tưởng đây là một trường học tại Nhật Bản hay
-                      Hàn Quốc, thế nhưng ngôi trường khiến dân mạng đổ xô đi
-                      tìm danh tính này thực chất là Đại học Đà Lạt nằm tại Đà
-                      Lạt - thành phố ngàn hoa nổi tiếng của Việt Nam.
-                    </p>
-                    <div className="row clearfix">
-                      <div className="col-lg-4 col-md-4 col-sm-12">
-                        <div className="image">
-                          <img
-                            src="https://halotravel.vn/wp-content/uploads/2019/11/dalat_truong-dai-hoc-da-lat-1-820x1024.jpg"
-                            alt=""
-                          />
-                        </div>
-                      </div>
-                      <div className="col-lg-8 col-md-8 col-sm-12">
-                        <p>
-                          Trường Đại học Đà Lạt là một trường đại học đa ngành
-                          tại Việt Nam, là đại diện duy nhất tại vùng Tây Nguyên
-                          được xếp vào nhóm 25 trường đại học tốt nhất tại Việt
-                          Nam, theo bảng xếp hạng đại học công bố đầu năm 2019
-                          của Bảng xếp hạng đại học Webometrics. Trước đây, Đại
-                          học Đà Lạt còn từng được xem là một trong những trường
-                          đại học có cảnh quan đẹp nhất Đông Nam Á Điểm ấn tượng
-                          nhất của Đại học Đà Lạt có lẽ là không gian lớn rộng,
-                          trải dài trên đồi thông. Trường ẩn mình giữa hàng cây
-                          cao vút, chạy dọc con đường nhỏ quanh co, kề bên những
-                          con dốc thoai thoải đặc trưng của Đà Lạt.
-                        </p>
-                      </div>
-                    </div>
+                    <div
+                      dangerouslySetInnerHTML={{
+                        __html: data && data.content.rendered,
+                      }}
+                    />
                   </div>
                 </div>
                 <div className="author-box comments-area">
