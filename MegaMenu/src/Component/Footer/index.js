@@ -1,69 +1,58 @@
 import React from 'react';
 export default function Footer() {
 	return (
-		<div className="Home">
-			<div id="footer">
-				<div className="container">
-					<div className="row">
-						<div className="col-md-5">
-							<div className="footer-widget">
-								<div className="footer-logo">
-									<a href="index.html" className="logo"><img src="./img/logo.png" alt="" /></a>
-								</div>
-								<ul className="footer-nav">
-									<li><a href="#">Chính sách bảo mật</a></li>
-									<li><a href="#">Quảng cáo</a></li>
-								</ul>
-								<div className="footer-copyright">
-									<span>©  </span>
-								</div>
-							</div>
-						</div>
-						<div className="col-md-4">
-							<div className="row">
-								<div className="col-md-6">
-									<div className="footer-widget">
-										<h3 className="footer-title">Liên Hệ</h3>
-										<ul className="footer-links">
-											<li><a href="about.html">Vấn Đề</a></li>
-											<li><a href="#">Tham Gia</a></li>
-											<li><a href="contact.html">Liên Hệ</a></li>
-										</ul>
-									</div>
-								</div>
-								<div className="col-md-6">
-									<div className="footer-widget">
-										<h3 className="footer-title">Danh Mục</h3>
-										<ul className="footer-links">
-											<li><a href="category.html">Sự Kiện</a></li>
-											<li><a href="category.html">Tin Tức</a></li>
-											<li><a href="category.html">Giải Thưởng</a></li>
-											<li><a href="category.html">Bài Viết</a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div className="col-md-3">
-							<div className="footer-widget">
-								<h3 className="footer-title">CONTACT WITH US !!!</h3>
-								<div className="footer-newsletter">
-									<form>
-										<input className="input" type="email" name="newsletter" placeholder="Enter your email" />
-										<button className="newsletter-btn"><i className="fa fa-paper-plane" /></button>
-									</form>
-								</div>
-								<ul className="footer-social">
-									<li><a href="#"><i className="fa fa-facebook" /></a></li>
-									<li><a href="#"><i className="fa fa-twitter" /></a></li>
-									<li><a href="#"><i className="fa fa-google-plus" /></a></li>
-									<li><a href="#"><i className="fa fa-pinterest" /></a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+		<footer className="main-footer">
+        <div className="widgets-section">
+          <div className="auto-container">
+            <div className="row clearfix">
+              <div className="widget-column col-lg-4 col-md-6 col-sm-12">
+                <div className="footer-widget tweets-widget">
+                  <h2>Liên hệ</h2>
+						
+                </div>
+              </div>
+       
+              <div className="widget-column col-lg-4 col-md-6 col-sm-12">
+                <div className="footer-widget isntagram-widget">
+                  <h2>Danh mục</h2>
+                  <div className="clearfix">
+                    
+                  </div>
+                </div>
+              </div>
+       
+              <div className="widget-column col-lg-4 col-md-6 col-sm-12">
+                <div className="footer-widget newsletter-widget">
+                  <h2>Kết nối với chúng tôi</h2>
+                  <div className="newsletter-form">
+                    <form method="post" action="contact.html">
+                      <div className="form-group">
+                        <input type="text" name="name" defaultValue placeholder="Name" required />
+                      </div>
+                      <div className="form-group">
+                        <input type="email" name="email" defaultValue placeholder="Email" required />
+                      </div>
+                      <div className="form-group">
+                        <button type="submit" className="theme-btn btn-style-one">Gửi</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="footer-bottom">
+          <div className="copyright-section">
+            <div className="auto-container">
+              <div className="row clearfix">
+                <div className="col-lg- col-md-12 col-sm-12">
+                  <div className="copyright">© Copyright by group menu and template CTK40 - Công nghệ phần mềm</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
 	)
 }
