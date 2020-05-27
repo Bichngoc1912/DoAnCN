@@ -1,0 +1,51 @@
+.toggleWidget {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    right: 0;
+    top: 70px;
+    width: 70px;
+    height: 50px;
+    background: #e83e8c;
+    i {
+      cursor: pointer;
+    }
+}
+
+.form-toggle {
+    position: absolute;
+    top: 70px;
+    right: 70px;
+    width: 350px;
+    height: 400px;
+    z-index: 1000;
+    transition: all 1s;
+    background: #f3f3f3;
+    box-shadow: 1px 1px 1px 1px snow;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    &.show{
+        right: 70px !important;
+        .left {
+            color: #e83e8c;
+            cursor: pointer;
+        }
+        .right {
+            color: #e83e8c;
+            cursor: pointer;
+        }
+    }
+    &.hide {
+        right: -800px !important;
+        width: 0px !important;
+        height: 0px;
+        .left {
+            display: none;
+        }
+        .right {
+            display: none;
+        }
+    }
+}
